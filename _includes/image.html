@@ -1,0 +1,20 @@
+<style>
+    figcaption {
+        text-align: center;
+        font-size: 20px;
+        color: red;
+        margin-top: 10px;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+    .img_post {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+</style>
+<figure class="image">
+    <img class="img_post" src="{{ include.url }}" alt="{{ include.description }}">
+    <figcaption>{{ include.description }}</figcaption>
+</figure>

@@ -1,0 +1,34 @@
+---
+layout: page
+title: Categories
+permalink: /categories/
+---
+
+<div id="archives">
+  {% for category in site.categories %}
+    <div class="archive-group">
+      {% capture category_name %}{{ category | first }}{% endcapture %}
+      <div id="#{{ category_name | slugize }}"></div>
+      <p></p>
+  
+      <h3 class="category-head">{{ category_name }}</h3>
+      <a name="{{ category_name | slugize }}"></a>
+      {% for post in site.categories[category_name] %}
+      <article class="archive-item" >
+        <div style="display: flex;justify-content: space-between;align-items: center;">
+          <div>
+            <h4><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a>
+          </div>
+
+          <div>
+            <span class="archive-item__meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+          </div>
+        </div>
+        
+      </article>
+      {% endfor %}
+    </div>
+  {% endfor %}
+  </div>
+
+<div class="clearfix"></div>

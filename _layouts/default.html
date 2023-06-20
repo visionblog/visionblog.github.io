@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} - 阮 国 庆</title>
+
+    {% include meta.html %}
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <script src="https://kit.fontawesome.com/33ae36df60.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.baseurl }}/feed.xml" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+    <script async src = " https://api.countapi.xyz/hit/nqkhanh2002.github.io/8c033c13-781e-4759-9119-16add4ceb46f?callback=websiteVisits"> </script>
+    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+    <script src="{{ site.baseurl }}/js/script.js"></script>
+  </head>
+
+  <body>
+    <!-- <div class="wrapper-masthead"> -->
+      <div class="container-fluid">
+        <div class="row">
+          <!-- left -->
+          <div class="col-md-2 hidden-xs hidden-sm">
+            <a href="/"><img width="100%" style="padding-top: 3mm;padding-left: 3mm;height: 10;" src="{{ site.baseurl }}/images/intro.jpg""/></a>
+            <nav>
+              <div style="text-align: center;color: red;">
+                <strong  style="text-align: center;">TOTAL VISITED -  <div id="visits"></div></strong>
+              </div>
+              {% assign sorted_posts = site.posts | sort: 'date' %}
+              {% for post in sorted_posts %}
+              <li><a style="margin-left:0;color: #074B80"  href="{{post.url}}">{{post.title}}</a></li>
+              {% endfor %}
+            </nav>
+          </div>
+          <!-- center -->
+          <div class="col-md-8 col-xs-12 " style="z-index:1" >
+            
+            <header class="masthead clearfix ">
+              <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
+    
+              <div class="site-info">
+                <h1 class="site-name"><a href="{{ site.baseurl }}/"><strong style="color: red;">{{ site.name }} - 阮 国 庆</strong></a></h1><br>
+                <h2 class="site-description"><strong>{{ site.description }}</strong></h2>
+              </div>
+    
+              <nav class="nav-main">
+                <a href="{{ site.baseurl }}/categories/">Categories</a>
+                <a href="{{ site.baseurl }}/list100">List 100</a>
+                <a href="{{ site.baseurl }}/">Resources</a>
+                <a href="{{ site.baseurl }}/about">About Me</a>
+              </nav>
+            </header>
+            <div id="bootstrap-overrides" role="main"> 
+              {{ content }}
+            </div>
+          </div>
+          <!-- right -->
+          <div class="col-md-2 hidden-xs hidden-sm">
+            <br>
+            <a href="/"><img width="100%" style="padding-bottom: 3mm;" src="/images/uit.png" /> </a>
+            <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FUIT.Fanpage&width=450&layout=standard&action=like&size=small&share=true&height=35&appId=687350028378644" width="450" height="35" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+            <!-- <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Faivietnam.edu.vn%2F&tabs=timeline&width=250&height=100&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="250" height="100" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe> -->
+            <strong>SHARE REFERENCES</strong>
+              <li><a style="text-align: left; color: #074B80"  href="http://web.stanford.edu/class/cs109/">Xác suất thống kê(Probability): CS109</a></li>
+              <li><a style="text-align: left; color: #074B80"  href="http://web.stanford.edu/class/cs246/">Bigdata: CS246</a></li>
+              <li><a style="text-align: left; color: #074B80"  href="http://cs231n.stanford.edu/">Computer vision cơ bản: CS231N</a></li>
+              <li><a style="text-align: left; color: #074B80"  href="http://web.stanford.edu/class/cs224n/">Natural Language Processing: CS224N</a></li>
+              <li><a style="text-align: left; color: #074B80"  href="http://web.stanford.edu/class/cs224w/">Khoá phân tích mạng lưới (analysis of network): CS224W</a></li>
+              <li><a style="text-align: left; color: #074B80"  href="https://web.stanford.edu/class/cs20si/">Khóa học Tensorflow: CS20SI</a></li>
+            </nav>
+          </div>
+        </div>
+      </div>
+
+    <!-- </div> -->
+
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    
+ 
+
+
+    {% include analytics.html %}
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- Config MathJax  -->
+    <script>
+      window.MathJax = {
+        tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']]
+        },
+        skipHtmlTags: [
+          'script', 'noscript', 'style', 'textarea', 'pre'
+        ],
+      };
+    </script>
+	<script type="text/javascript" id="MathJax-script" async
+	  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+	</script>
+      {% if page.layout == 'post' %}
+      <script src="{{ site.baseurl }}/js/outline.js"></script>
+      <script type="text/javascript">
+      $(document).ready(function() {
+        $('#outline').toc();
+      });
+      </script>
+      {% endif %}
+      
+      <div class="btn-top">
+        <a class="gotopbtn" href="#"><i class="fas fa-arrow-up"> </i></a>
+      </div>
+      
+      <footer class="site-footer col-md-">
+        <div class="col-md-12">
+          <div class="row">
+            <div class="col-sm-12 col-md-6">
+              <h6>About</h6>
+              <p class="text-justify"">My blog is just a small part of sharing my knowledge with the community and also a part to help me revise my knowledge in my journey. This is a blog about Machine Learning, Deep Learning, Computer Vision, Natural Language Processing, and other related fields.
+                 Thank you for reading this far and I hope you will find it useful.
+              </p>
+            </div>
+    
+            <div class="col-xs-6 col-md-3">
+              <h6>Categories</h6>
+              <ul class="footer-links">
+                <li><a href="{{ site.baseurl }}">Computer Vision</a></li>
+                <li><a href="{{ site.baseurl }}">Machine Learning</a></li>
+                <li><a href="{{ site.baseurl }}">Deep Learning</a></li>
+                <li><a href="{{ site.baseurl }}">NLP</a></li>
+                <li><a href="{{ site.baseurl }}">Paper</a></li>
+              </ul>
+            </div>
+    
+            <div class="col-xs-6 col-md-3">
+              <h6>Quick Links</h6>
+              <ul class="footer-links">
+                <li><a href="{{ site.baseurl }}">About Us</a></li>
+                <li><a href="{{ site.baseurl }}">Contact Us</a></li>
+                <li><a href="{{ site.baseurl }}">Contribute</a></li>
+                <li><a href="{{ site.baseurl }}">Privacy Policy</a></li>
+                <li><a href="https://i.am.ai/roadmap">AI Expert Roadmap</a></li>
+              </ul>
+            </div>
+          </div>
+          <hr>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-sm-6 col-xs-12">
+              <p class="copyright-text">Copyright &copy; 2022. All Rights Reserved by 
+           <a href="#" style="color: red;">NQK</a>.
+              </p>
+            </div>
+    
+            <div class="col-md-4 col-sm-6 col-xs-12">
+              <ul class="social-icons">
+                <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+                <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>   
+              </ul>
+            </div>
+          </div>
+        </div>
+    </footer>
+  </body>
+  
+</html>
