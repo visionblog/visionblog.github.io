@@ -22,3 +22,4 @@ permalink: /list100/
 15. <i class="fa-sharp fa-solid fa-xmark"></i> Be modesty
 16. <i class="fa-sharp fa-solid fa-xmark"></i> Typing 100 words per minute
 17. <i class="fa-sharp fa-solid fa-xmark"></i> Go somewhere where it's snowing
+18. <i class="fa-sharp fa-solid fa-xmark"></i> Appears in the 100 Most Influential People in AI 2023

@@ -31,7 +31,7 @@ Các kỹ thuật hệ gợi ý đã và đang được nghiên cứu, ứng d�
 Tuy nhiên, hiện nay, phần lớn trang thương mại điện tử trong nước chưa tích hợp các chức năng này, hoặc nếu có cũng chỉ dừng ở mức gợi ý chung chung, chưa có tính cá nhân hóa.
 
 # 3. Hệ thống gợi ý.
-### 3.1. Tổng quan
+## 3.1. Tổng quan
 Hệ thống gợi ý sử dụng các tri thức về sản phẩm, các tri thức của chuyên gia hay tri thức khai phá học được từ hành vi con người dùng để đưa ra các gợi ý về sản phẩm mà họ thích trong hàng ngàn hàng vạn sản phẩm có trong hệ thống.
 
 Các website thương mại điện tử, ví dụ như sách, phim, nhạc, báo...sử dụng hệ thống gợi ý để cung cấp các thông tin giúp cho người sử dụng quyết định sẽ lựa chọn sản phẩm nào. Các sản phẩm được gợi ý dựa trên số lượng sản phẩm đó đã được bán, dựa trên các thông tin cá nhân của người sử dụng, dựa trên sự phân tích hành vi mua hàng trước đó của người sử dụng để đưa ra các dự đoán về hành vi mua hàng trong tương lai của chính khách hàng đó. Các dạng gợi ý bao gồm: gợi ý các sản phẩm tới người tiêu dùng, các thông tin sản phẩm mang tính cá nhân hóa, tổng kết các ý kiến cộng đồng, và cung cấp các chia sẻ, các phê bình, đánh giá mang tính cộng đồng liên quan tới yêu cầu, mục đích của người sử dụng đó.
@@ -44,13 +44,13 @@ Về cơ bản recommender systems được chia làm 3 công nghệ chính :
 </ul>
 
 Hai thực thể chính trong Recommender System là users và items. Mỗi user sẽ có mức độ quan tâm (degree of preference) tới từng item khác nhau được gán cho mỗi cặp user-item, tạm gọi là rating. Tập hợp tất cả ratings, bao gồm cả những giá trị chưa biết cần được dự đoán, tạo nên một ma trận utility matrix.
-### 3.2.1. Content-based filtering
+## 3.2.1. Content-based filtering
 Phương pháp lọc dựa trên nội dung dựa trên mô tả của mặt hàng và hồ sơ về sở thích của người dùng. Các phương pháp này phù hợp nhất với các trường hợp có dữ liệu đã biết về một mục (tên, vị trí, mô tả, v.v.), nhưng không có trên người dùng. Người đề xuất dựa trên nội dung coi đề xuất là một vấn đề phân loại dành riêng cho người dùng và tìm hiểu cách phân loại cho những người thích và không thích dựa trên các tính năng của một mặt hàng.
 
 Trong các hệ thống content-based, dựa trên nội dung của mỗi item, ta cần xây dựng một bộ hồ sơ (profile) cho mỗi item. Profile được biểu diễn dưới dạng toán học là feature vector được trích xuất trực tiếp từ item.Việc xây dựng feature vector cho mỗi item thường bao gồm các kỹ thuật Xử lý ngôn ngữ tự nhiên (Natural Language Processing - NLP).
 
 Việc xây dựng mô hình cho mỗi user có thể coi như bài toán Regreesion hoặc Classification với training data là cặp dữ liệu (item-profile, rating) của user.
-### 3.2.2. Collaborative filtering
+## 3.2.2. Collaborative filtering
 Lọc cộng tác dựa trên giả định rằng những người đã đồng ý trong quá khứ sẽ đồng ý trong tương lai và họ sẽ thích những loại mặt hàng tương tự như họ đã thích trong quá khứ.
 
 Hệ thống theo lọc công tác phân tích và tổng hợp các điểm số đánh giá của các đối tượng, nhận ra sự tương đồng giữa những người sử dụng trên cơ sở các điểm số đánh giá của họ và tạo ra các gợi ý dựa trên sự so sánh này. Hồ sơ (profile) của người sử dụng điển hình trong hệ thống lọc cộng tác bao gồm một vector các đối tượng (item) và các điểm số đánh giá của chúng, với số chiều tăng lên liên tục khi người sử dụng tương tác với hệ thống theo thời gian.
@@ -58,7 +58,7 @@ Hệ thống theo lọc công tác phân tích và tổng hợp các điểm s�
 Để suy ra được mức độ quan tâm (filtering) của một user lên một item ta cần chuẩn hóa dữ liệu (phương pháp phố biến là mean offset) để tính được Similarity matrix. Similarity function thường được dùng là Cosine similarity hoặc Pearson correlation.
 
 Ngoài ra, còn một hướng tiếp cận khác cho Collaborative Filtering dựa trên Matrix Factorization. Bạn đọc có thể xem thêm Matrix Factorization Collaborative Filtering.
-### 3.2.3. Hybrid filtering
+## 3.2.3. Hybrid filtering
 Hybrid Filtering là sự kết hợp của hai giải thuật Content-based Filtering và Collabrative Filtering. Hybrid Fitering được sử dụng mềm dẻo khi hệ thống Collabrative Filtering không có đủ dữ liệu là các ratings của user, khi đó hệ thống sẽ sử dụng Content-based Filtering và ngược lại, khi Content-based Filtering không có các feature cần thiết trong việc đánh giá thì hệ thống sẽ sử dụng Collaborative Fitering để thay thế.
 
 Hầu hết các hệ thống gợi ý hiện nay đều có xu hướng sử dụng phương pháp kết hợp, kết hợp lọc cộng tác , lọc dựa trên nội dung và các phương pháp tiếp cận khác. Một số nghiên cứu so sánh thực nghiệm hiệu suất của phương pháp lai với các phương pháp cộng tác và dựa trên nội dung thuần túy và chứng minh rằng các phương pháp lai có thể cung cấp các khuyến nghị chính xác hơn so với các phương pháp thuần túy.
