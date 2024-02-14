@@ -104,7 +104,7 @@ body {
     color: #fff;
     opacity: 0;
     animation: fadeInOut 4s ease-in-out forwards;
-    font-size: 60px;
+    font-size: 30px;
     position: absolute;
     top: 50%;
     left: 50%;

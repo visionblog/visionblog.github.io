@@ -17,7 +17,7 @@ gift.addEventListener("click", () => {
         })
     }, 6000)
 })
-
+audioElement.play();
 
 $(function() {
     // Get random number between 2 ranges
