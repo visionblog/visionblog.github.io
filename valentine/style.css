@@ -141,6 +141,17 @@ body {
     animation-delay: 6s;
 }
 
+.delay-4 {
+    animation-delay: 9s;
+}
+
+.delay-5 {
+    animation-delay: 12s;
+}
+.delay-6 {
+    animation-delay: 15s;
+}
+
 @keyframes fadeInOut {
 
     0%,
@@ -174,7 +185,7 @@ body {
     transform: translate(-50%, -50%);
     animation: fadeIn 4s ease-in-out forwards;
     opacity: 0;
-    animation-delay: 9s;
+    animation-delay: 17s;
 }
 .gift img{
     max-width: 100%;

@@ -9,7 +9,7 @@ gift.addEventListener("click", () => {
         meme.scrollIntoView({
             behavior: 'smooth'
         })
-    }, 3000)
+    }, 4000)
     const txt = document.querySelector(".txt")
     setTimeout(() => {
         txt.scrollIntoView({
@@ -35,6 +35,5 @@ $(function() {
         $this.append('<span class="tiny-heart" style="top: '+ randomNum(40, 80) +'%; left: '+ randomNum(0, 100) +'%; width: '+ heartSize +'px; height: '+ heartSize +'px ; animation-delay: -'+ randomNum(0, 3) +'s; animation-duration: '+ randomNum(2, 5) +'s"></span>')
       }
     }
-    
     heartAnimation();
   })
