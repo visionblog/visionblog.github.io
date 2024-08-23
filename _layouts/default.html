@@ -2,7 +2,7 @@
 <html>
 
   <head>
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} - 阮 国 庆</title>
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }}</title>
 
     {% include meta.html %}
 
@@ -29,7 +29,7 @@
             <a href="/"><img width="100%" style="padding-top: 3mm;padding-left: 3mm;height: 10;" src="{{ site.baseurl }}/images/intro.jpg""/></a>
             <nav>
               <div style="text-align: center;color: red;">
-                <strong  style="text-align: center;">TOTAL VISITED -  <div id="visits"></div></strong>
+                <strong  style="text-align: center;">TABLE OF CONTENTS<div id="visits"></div></strong>
               </div>
               {% assign sorted_posts = site.posts | sort: 'date' %}
               {% for post in sorted_posts %}
@@ -44,13 +44,19 @@
               <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
     
               <div class="site-info">
-                <h1 class="site-name"><a href="{{ site.baseurl }}/"><strong style="color: red;">{{ site.name }} - 阮 国 庆</strong></a></h1><br>
+                <h1 class="site-name"><a href="{{ site.baseurl }}/"><strong style="color: red;">{{ site.name }}</strong></a></h1><br>
                 <h2 class="site-description"><strong>{{ site.description }}</strong></h2>
               </div>
     
               <nav class="nav-main">
                 <a href="{{ site.baseurl }}/categories/">Categories</a>
                 <a href="{{ site.baseurl }}/list100">List 100</a>
+                <a href="{{ site.baseurl }}/1000books">Books 1000</a>
+                <a href="{{ site.baseurl }}/1000talks">Talks 1000</a>
+                <a href="{{ site.baseurl }}/list100">Daily Paper</a>
+                <a href="{{ site.baseurl }}/list100">Daily Codeforces</a>
+                <a href="{{ site.baseurl }}/list100">Daily Learning</a>
+                <a href="{{ site.baseurl }}/list100">Daily English</a>
                 <a href="{{ site.baseurl }}/">Resources</a>
                 <a href="{{ site.baseurl }}/about">About Me</a>
               </nav>
