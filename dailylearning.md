@@ -40,3 +40,10 @@ permalink: /dailylearning/
         - Preparing for new lesson
 ---
 
+## Day 2 - 29/08/2924
+
+### What I Learned
+- Typing Speed: Target English/Vietnamese:
+    - VIE: 75 WPM
+    - ENG: 63 WPM
+    - Youtube: How I Type REALLY Fast (156 Words per Minute) 
