@@ -7,9 +7,10 @@ permalink: /dailylearning/
 
 <div align="center">
     <h1 style="color: #4CAF50;">🌟 DAILY LEARNING 🌟</h1>
+     <h2>🏆THE BEST OR NOTHING🏆</h2>
 </div>
 
-> **The BEST OR NOTHING.** 🏆
+
 
 ## 📅 Day 1 - 28/08/2924
 
