@@ -66,7 +66,7 @@ permalink: /dailylearning/
 ### 🏋️ Challenges 
 - VinBDI Lesson is difficult, need more time to understand
 - Not doing
-    - Competitive Programming
+    - Competitive Programming 
     - English
 ---
 
@@ -74,20 +74,53 @@ permalink: /dailylearning/
 
 ### 🧠 What I Learned
 - 🖮 Typing Speed: Target English/Vietnamese:
-    - 🇻🇳 VIE: 
-    - 🇬🇧 ENG: 
+    - VIE: 
+    - ENG: 
+  
 - 💼 Ventus 
-    - 
+    - Transfer simulate to Colab Pro+
+    - Some research about strategy bet
 - 🎓 Vingroup AI Engineer Training Program
-    - 
+    - Complete Exercise for ML10, 11
 - 🗣️ English
-    - 
+    - Nothing
 - 🔬 Research
-    - 
+    - Nothing
 - 💻 Competitive Programming 
-    - 
+    - Nothing
 - 📰 News 
     - 
 
 ### 🏋️ Challenges 
-- 
+- Nothing update on many works, need more discipline to keep doing it everyday
+  - English
+  - Competitive Programming
+  - Research
+  - Typing
+  - Linear Algebra for Machine Learning and Data Science (4 Weeks)
+
+---
+
+## 📅 Day 4 - 31/08/2024
+
+### 🧠 What I Learned
+- 🖮 Typing Speed: Target English/Vietnamese:
+    - VIE: 
+    - ENG: 
+  
+- 🎓 Vingroup AI Engineer Training Program
+    - Works last day before Indepentdent Holiday
+    - Work lesson 12, if need 
+- 🗣️ English
+    - Format of IELTS test (Academic)
+    - Full test (Study 5): Updating score...
+- 🔬 Research
+    - Linear Algebra for Machine Learning and Data Science (4 Weeks)
+    - Write paper survey
+- 💻 Competitive Programming 
+    - Do codeforces
+    - Read VNOI wiki
+
+### 🏋️ Challenges 
+- Updating
+
