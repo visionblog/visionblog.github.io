@@ -105,12 +105,18 @@ permalink: /dailylearning/
 
 ### 🧠 What I Learned
 - 🖮 Typing Speed: Target English/Vietnamese:
-    - VIE: 
-    - ENG: 
+    - VIE: 105 WPM
+    - ENG: 71 WPM
+    - Typesy:
+      - Course Type Interactive: 3 lessons (New software)
   
 - 🎓 Vingroup AI Engineer Training Program
     - Works last day before Indepentdent Holiday
-    - Work lesson 12, if need 
+    - Work lesson 12
+
+
+### 🏋️ Challenges 
+❌ **Not done**
 - 🗣️ English
     - Format of IELTS test (Academic)
     - Full test (Study 5): Updating score...
@@ -120,7 +126,41 @@ permalink: /dailylearning/
 - 💻 Competitive Programming 
     - Do codeforces
     - Read VNOI wiki
+- 💼 Ventus 
+  - Simulate strategy bet
+    - Fix run from last index
+
+---
+
+## 📅 Day 5 - 01/09/2024 (IN PROGRESS)
+
+Today, I will spend most of my time during the Independence Day holiday visiting the countryside.
+
+Additionally, I have an interview from 9:00 AM to 10:00 AM for the position of Lecturer at DataScienceWorld.Kan
+### 🧠 What I Learned
+- 🖮 Typing Speed: Target English/Vietnamese:
+    - VIE: 
+    - ENG: 
+    - Typesy:
+      - Course Type Interactive: 
+
+- 🎓 Vingroup AI Engineer Training Program
+    - 
+
+- 🗣️ English
+    - 
+
+- 🔬 Research
+    - 
+
+- 💻 Competitive Programming 
+    - 
+
+- 📰 News 
+    - 
 
 ### 🏋️ Challenges 
-- Updating
+- 
+
+---
 
