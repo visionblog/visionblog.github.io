@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Daily Learning
+title: 🌟 DAILY LEARNING 🌟
 permalink: /dailylearning/
 ---
 <!-- <i class="fa-solid fa-check"></i> -->
 
 <div align="center">
-    <h1 style="color: #4CAF50;">🌟 DAILY LEARNING 🌟</h1>
+    <!-- <h1 style="color: #4CAF50;">🌟 DAILY LEARNING 🌟</h1> -->
      <h2>🏆THE BEST OR NOTHING🏆</h2>
 </div>
 
