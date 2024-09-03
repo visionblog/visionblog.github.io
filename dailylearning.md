@@ -133,11 +133,21 @@ permalink: /dailylearning/
 
 ---
 
-## 📅 Day 5 - 01/09/2024 (IN PROGRESS)
+## 📅 Day 5 - 01/09/2024
 
 Today, I will spend most of my time during the Independence Day holiday visiting the countryside.
 
-Additionally, I have an interview from 9:00 AM to 10:00 AM for the position of Lecturer at DataScienceWorld.Kan
+## 📅 Day 6 - 02/09/2024 (IN PROGRESS)
+
+Today, I will spend most of my time during the Independence Day holiday visiting the countryside.
+
+## 📅 Day 7 - 03/09/2024 
+
+Today, I will spend most of my time during the Independence Day holiday visiting the countryside.
+
+
+## 📅 Day 8 - 04/09/2024
+
 ### 🧠 What I Learned
 - 🖮 Typing Speed: Target English/Vietnamese:
     - VIE: 
@@ -148,20 +158,18 @@ Additionally, I have an interview from 9:00 AM to 10:00 AM for the position of L
 - 🎓 Vingroup AI Engineer Training Program
     - 
 
+### 🏋️ Challenges 
+❌ **Not done**
 - 🗣️ English
     - 
-
 - 🔬 Research
     - 
-
 - 💻 Competitive Programming 
     - 
+- 💼 Ventus 
+  - 
 
-- 📰 News 
-    - 
 
-### 🏋️ Challenges 
-- 
 
----
+
 
