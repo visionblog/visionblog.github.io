@@ -11,7 +11,6 @@ permalink: /dailylearning/
 </div>
 
 
-
 ## 📅 Day 1 - 28/08/2924
 
 ### 🧠 What I Learned
@@ -150,13 +149,31 @@ Today, I will spend most of my time during the Independence Day holiday visiting
 
 ### 🧠 What I Learned
 - 🖮 Typing Speed: Target English/Vietnamese:
-    - VIE: 
-    - ENG: 
+    - VIE: 89 -> ...
+    - ENG: 52 -> ...
     - Typesy:
       - Course Type Interactive: 
+        - Learn about Type Master, continue course on next day
 
 - 🎓 Vingroup AI Engineer Training Program
-    - 
+  -  Report for Ms. Lien about Insurance Tax
+  -  Homework ML 12
+  -  Read new lesson 13
+  -  Update final project - ML
+  -  Write paper survey - update report docs for final course
+- 💼 Ventus
+  - Set up for Quinella bet and check frequency of exits at least 2 horses at a race to (bet)
+  - Meeting new week (after Independence Day holiday)
+  - Checking simulate strategy bet
+  - Bug management:
+    - Fix bug for report
+- Contest
+  - UIT Datascience Challenge 
+  - Eureka
+  - DENSO FPT
+- 📰 Others news
+  - Learn about Airdrops
+  - Trade binance/future
 
 ### 🏋️ Challenges 
 ❌ **Not done**
@@ -168,8 +185,4 @@ Today, I will spend most of my time during the Independence Day holiday visiting
     - 
 - 💼 Ventus 
   - 
-
-
-
-
 
